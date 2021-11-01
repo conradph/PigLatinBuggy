@@ -1,25 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Tommy\\Desktop\\Refactor Lab\\PigLatin\\PigLatin.csproj": {}
+    "C:\\Users\\PConrad\\source\\repos\\PigLatinBuggy\\PigLatin\\PigLatin.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Tommy\\Desktop\\Refactor Lab\\PigLatin\\PigLatin.csproj": {
+    "C:\\Users\\PConrad\\source\\repos\\PigLatinBuggy\\PigLatin\\PigLatin.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Tommy\\Desktop\\Refactor Lab\\PigLatin\\PigLatin.csproj",
+        "projectUniqueName": "C:\\Users\\PConrad\\source\\repos\\PigLatinBuggy\\PigLatin\\PigLatin.csproj",
         "projectName": "PigLatin",
-        "projectPath": "C:\\Users\\Tommy\\Desktop\\Refactor Lab\\PigLatin\\PigLatin.csproj",
-        "packagesPath": "C:\\Users\\Tommy\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Tommy\\Desktop\\Refactor Lab\\PigLatin\\obj\\",
+        "projectPath": "C:\\Users\\PConrad\\source\\repos\\PigLatinBuggy\\PigLatin\\PigLatin.csproj",
+        "packagesPath": "C:\\Users\\PConrad\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\PConrad\\source\\repos\\PigLatinBuggy\\PigLatin\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Tommy\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\PConrad\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -44,6 +39,22 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.0.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -59,7 +70,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }
